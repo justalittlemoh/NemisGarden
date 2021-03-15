@@ -1,0 +1,46 @@
+
+
+$color-main: #c3edc3;       /*                  color for header and footer also for the bg of cards*/
+$color-logo: #16B316;       /*                  bg color of the "n"-logo also for most buttons*/
+$color-btn-explore: #71f071; /*                 bright-green color for the main explore-btn*/
+
+
+$color-card-vegi: #cfeea7;  /*                  bg-color of the vegetables card on the "explore-page"*/
+$color-card-tip: #71f071; /*                    bg-color of "tip-card" on recipe site */
+$color-btn-tip-more: #16b397; /*                button color of tip-card    */
+
+$color-header: #aff2af; /*                      used on headers*/
+$color-text: #8f8f8f;
+
+$font-style:"Monserrat",sans-serif; 
+
+
+/* changed bootstrap classes below here */
+
+.background-main {
+    background-color: $color-main;
+    color: $color-text;
+}
+
+// a .btn-instagram, .btn-facebook, .btn-twitter {
+//     font-weight: bold;
+//     padding: 0.5em 0.25em;
+//     @include font-size(4em);
+
+// }
+
+
+/*element selectors*/
+
+a {
+    color: $color-logo;
+}
+
+
+
+// @media (min-width: 768px) {
+//     .btn-social {
+//         font-weight: bold;
+//         font-size: 2em;
+//     }
+// }
