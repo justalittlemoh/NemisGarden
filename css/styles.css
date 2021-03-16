@@ -10,6 +10,14 @@
   background-color: #c3edc3;
   color: #8f8f8f; }
 
+.text-bold {
+  font-weight: 700; }
+
 /*element selectors*/
 a {
   color: #16B316; }
+
+/* images */
+#logo {
+  width: 4rem;
+  height: 4rem; }

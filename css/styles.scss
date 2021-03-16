@@ -22,6 +22,11 @@ $font-style:"Monserrat",sans-serif;
     color: $color-text;
 }
 
+.text-bold {
+    font-weight: 700;
+}
+
+
 // a .btn-instagram, .btn-facebook, .btn-twitter {
 //     font-weight: bold;
 //     padding: 0.5em 0.25em;
@@ -38,9 +43,10 @@ a {
 
 
 
-// @media (min-width: 768px) {
-//     .btn-social {
-//         font-weight: bold;
-//         font-size: 2em;
-//     }
-// }
+/* images */
+
+#logo {
+
+    width: 4rem;
+    height: 4rem;
+}
