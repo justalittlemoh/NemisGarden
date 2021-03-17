@@ -1,7 +1,7 @@
 
 
 $color-main: #c3edc3;       /*                  color for header and footer also for the bg of cards*/
-$color-logo: #16B316;       /*                  bg color of the "n"-logo also for most buttons*/
+$color-main-logo: #16B316;       /*                  bg color of the "n"-logo also for most buttons*/
 $color-btn-explore: #71f071; /*                 bright-green color for the main explore-btn*/
 
 
@@ -26,6 +26,36 @@ $font-style:"Monserrat",sans-serif;
     font-weight: 700;
 }
 
+.background-logo {
+    background-color: $color-main-logo;
+}
+
+.btn-success {
+    background-color: $color-main-logo;
+}
+
+.container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.btn-info {
+    background-color: $color-btn-tip-more;
+    width: 5em;
+    height: 1.5em;
+    margin: auto;
+    font-size: 1em;
+    padding:0.1em;
+    
+}
+
+.table {
+    font-size: 1em;
+}
+
+tr,th,td {
+    font-size: inhirit;
+}
 
 // a .btn-instagram, .btn-facebook, .btn-twitter {
 //     font-weight: bold;
@@ -38,7 +68,7 @@ $font-style:"Monserrat",sans-serif;
 /*element selectors*/
 
 a {
-    color: $color-logo;
+    color: $color-main-logo;
 }
 
 
@@ -49,4 +79,37 @@ a {
 
     width: 4rem;
     height: 4rem;
+}
+
+.card-img {
+    width: 15em;
+    height: 10em;
+}
+
+
+/*rating box starts here*/
+
+// .cat-img {
+//     display:none;
+// }
+.cat-img {
+    background-image: url(../img/rating-car.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: 2em 2em;
+
+    // width: 2em;
+    // height: 2em;
+}
+
+.rating-box {
+    background-color:$color-btn-explore;
+}
+
+#nemiRating {
+    padding-bottom: 1em;
+}
+
+nav div {
+    border: 0.1em solid black;
 }

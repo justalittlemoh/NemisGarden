@@ -13,6 +13,30 @@
 .text-bold {
   font-weight: 700; }
 
+.background-logo {
+  background-color: #16B316; }
+
+.btn-success {
+  background-color: #16B316; }
+
+.container {
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+.btn-info {
+  background-color: #16b397;
+  width: 5em;
+  height: 1.5em;
+  margin: auto;
+  font-size: 1em;
+  padding: 0.1em; }
+
+.table {
+  font-size: 1em; }
+
+tr, th, td {
+  font-size: inhirit; }
+
 /*element selectors*/
 a {
   color: #16B316; }
@@ -21,3 +45,23 @@ a {
 #logo {
   width: 4rem;
   height: 4rem; }
+
+.card-img {
+  width: 15em;
+  height: 10em; }
+
+/*rating box starts here*/
+.cat-img {
+  background-image: url(../img/rating-car.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  size: 2em 2em; }
+
+.rating-box {
+  background-color: #71f071; }
+
+#nemiRating {
+  padding-bottom: 1em; }
+
+nav div {
+  border: 0.1em solid black; }

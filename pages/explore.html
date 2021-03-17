@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
         <link rel="stylesheet" href="../css/styles.css">
-        <title>Nemi's Garden</title>
+        <title>Explore Recipes</title>
     </head>
 
 
@@ -23,7 +23,7 @@
                     </div>
                     <nav class="navbar col ">
                         <div class="nav-item">
-                            <a class=" nav-link  text-body text-bold" aria-current="true" href="#">Home</a>
+                            <a class=" nav-link  text-body text-bold" aria-current="true" href="../index.html">Home</a>
                         </div>
                         <div class="nav-item">
                             <a class="nav-link  text-body text-bold" href="/explore.html">Explore</a>
@@ -42,16 +42,94 @@
     
         </header>
     
-        <main class="main-container">
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quod mollitia inventore deleniti quibusdam repellat nostrum explicabo iure ab excepturi, dignissimos doloremque tempora quisquam recusandae officia cumque expedita odit! Perspiciatis.</p>
+                </div>
+            </div>
+
+            <!-- CARD IS ALMOST FINISHED
+                Missing:
+                    -rating-widget
+                    -carousel
             
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque felis imperdiet proin fermentum leo vel orci. Id cursus metus aliquam eleifend mi. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Vestibulum sed arcu non odio euismod lacinia. Elit sed vulputate mi sit amet mauris commodo. Eget nullam non nisi est sit amet. Cras pulvinar mattis nunc sed blandit. Neque aliquam vestibulum morbi blandit cursus risus. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Egestas congue quisque egestas diam in. Mollis aliquam ut porttitor leo. In hac habitasse platea dictumst. Massa enim nec dui nunc mattis enim ut tellus elementum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet risus feugiat in ante metus dictum at tempor commodo. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan.
-        
+            -->
+            <div class="row justify-content-md-center m-3">
+                <div class="col col-md-5 p-0">
+                    <div class="card text-center">
+                            <span class=" card-header background-logo"><h3>Moh's super bolo</h3>
+                            <p class="my-0">No meat - but still got the bite</p></span>
+                        <div class="card-body background-main p-3 ">
+                            <img class="card-img" src="https://cdn.pixabay.com/photo/2014/04/22/02/55/pasta-329522_1280.jpg">
+
+                            <table class="table text-left">
+                                <tr>
+                                    <th>Portions</th>
+                                    <td>Depends on veggi-size</th>
+                                </tr>
+                                <tr>
+                                    <th>Prep-time</th>
+                                    <td> 35 minutes</th>
+                                </tr>
+                                <tr>
+                                    <th>Ingredients</th>
+                                    <td>Carrot,Zucchini, Tomatoes, Garlic, Onion</th>
+                                </tr>
+                            </table>
+                            <div class="container py-0">
+                                <div class="row rating-box rounded justify-content-center pt-1">
+                                    <div class="rating-widget col-8" id="rating-widget">
+                                        <input type="radio" name="rate" id="rate-5" class="cat-img">
+                                        <label for="rate-5" class="cat-img-label"></label>
+                                        <input type="radio" name="rate" id="rate-4" class="cat-img">
+                                        <label for="rate-4" class="cat-img-label"></label>
+                                        <input type="radio" name="rate" id="rate-3" class="cat-img">
+                                        <label for="rate-3" class="cat-img-label"></label>
+                                        <input type="radio" name="rate" id="rate-2" class="cat-img">
+                                        <label for="rate-2" class="cat-img-label"></label>
+                                        <input type="radio" name="rate" id="rate-1" class="cat-img">
+                                        <label for="rate-1" class="cat-img-label"></label>
+                                    </div>
+                                    <div class="col-4 text-center p-0 pb-1">
+                                        <label for="rating-widget"><b>5/5 Nemis</b></label>
+                                        <a class="btn btn-info float-none" role="button" href="#">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-around mt-4">
+                                <div class="col">
+                                    <a class="btn btn-success " role="button" href="#">Read More</a>
+                                </div>
+                                <div class="col">
+                                <a class="btn btn-success " role="button" href="#shareMeModal">Share me</a>
+                                <!-- modal still has to be made => so person can choose on what platform to share it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </main>
     
     
         <footer class="site-footer background-main">
             
-                <div class="row text-center justify-content-md-between py-2">
+                <div class="row text-center justify-content-md-between p-2">
                     <div class="col col-md-3">
                         <h5><a href="#" class="text-body text-bold">Contact Us</a></h5>
                         <nav class="list-unstyled d-none d-sm-block">
@@ -61,9 +139,9 @@
                     </div>         
                     <!-- I JUST CANT CHANGE THAT FUCKING BUTTON-PADDING -_______________- -->       
                     <div class="col col-md-3 align-self-center ">
-                        <a class="btn btn-social btn-facebook"><i class="fa fa-2x fa-facebook"></i></a>    
-                        <a class="btn btn-social btn-instagram"><i class="fa fa-2x fa-instagram"></i></a>
-                        <a class="btn btn-social btn-twitter"><i class="fa fa-2x fa-twitter"></i></a>  
+                        <a class="btn btn-social btn-facebook" href="http://facebook.com"><i class="fa fa-2x fa-facebook"></i></a>    
+                        <a class="btn btn-social btn-instagram" href="http://instagram.com"><i class="fa fa-2x fa-instagram"></i></a>
+                        <a class="btn btn-social btn-twitter" href="http://instagram.com"><i class="fa fa-2x fa-twitter"></i></a>  
                     </div>
                     <div class="col col-md-3">
                         <h5><a href="#" class="text-body text-bold">Donate</a></h5>
