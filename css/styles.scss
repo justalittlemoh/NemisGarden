@@ -49,13 +49,24 @@ $font-style:"Monserrat",sans-serif;
     
 }
 
-.table {
-    font-size: 1em;
+
+// header and footer start here
+
+
+.fa-leaf {
+    color: $color-main-logo;
+    font-size: 400%;
 }
 
-tr,th,td {
-    font-size: inhirit;
+.navbar-nav {
+    font-size: 2em;
 }
+#logo {
+    width: 6em;
+    height: 6em;
+}
+
+
 
 // a .btn-instagram, .btn-facebook, .btn-twitter {
 //     font-weight: bold;
@@ -67,40 +78,45 @@ tr,th,td {
 
 /*element selectors*/
 
+
 a {
     color: $color-main-logo;
 }
 
-
+h1 {
+    padding: 0.5em;
+}
 
 /* images */
 
-#logo {
 
-    width: 4rem;
-    height: 4rem;
-}
-
-.card-img {
-    width: 15em;
+.card-img-bottom {
+    width: fluid;
     height: 10em;
 }
 
+.fa-chevron-left, .fa-chevron-right {
+    color:$color-main;
+
+}
 
 /*rating box starts here*/
 
 // .cat-img {
 //     display:none;
 // }
-.cat-img {
-    background-image: url(../img/rating-car.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    size: 2em 2em;
 
-    // width: 2em;
-    // height: 2em;
-}
+/*custom stuff */
+
+// .cat-img {
+//  // here I would like to change the radios in the Recipe card to the rating-cat.pgn
+// }
+
+//  .card-columns .card img {
+//     size: 10em 8em;
+// }
+
+
 
 .rating-box {
     background-color:$color-btn-explore;
@@ -110,6 +126,3 @@ a {
     padding-bottom: 1em;
 }
 
-nav div {
-    border: 0.1em solid black;
-}

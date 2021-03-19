@@ -17,29 +17,38 @@
     <body>
         <header class="site-header background-main p-2" >
             
-                <div class="row row-content ">
-                    <div class=" col-sm-4 col-lg-6 justify ">
-                        <a href="#"><img src="../img/logo.png" alt="lightgreen N on forestgreen ground - the websites logo" id="logo"></a>
+            <header class="site-header background-main p-2">
+            
+                <div class="row row-content container-fluid">
+                    <div class=" col justify-content-between ">
+                        <a href="../index.html"><img src="../img/logo.png" alt="lightgreen N on forestgreen ground - the websites logo" id="logo"></a>
                     </div>
-                    <nav class="navbar col ">
-                        <div class="nav-item">
-                            <a class=" nav-link  text-body text-bold" aria-current="true" href="../index.html">Home</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link  text-body text-bold" href="/explore.html">Explore</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link  text-body text-bold" href="/sharerecipe.html">Share</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link  text-body text-bold" href="/about.html">About</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link  text-body text-bold" href="/donate.html">Donate</a>
-                        </div>
-                    </nav>
+                    <button class="navbar-toggler col text-right" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                        <span class="fa fa-leaf "></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="siteNavbar">
+                        <nav class="navbar navbar-md-expand col justify-content-center" >
+                            <menu class="navbar-nav ">
+                                <li class="col nav-item">
+                                    <a class=" nav-link text-bold" aria-current="true" href="../index.html">Home</a>
+                                </li>
+                                <li class="col nav-item">
+                                    <a class=" nav-link text-bold" href="explore.html">Explore</a>
+                                </li>
+                                <li class="col nav-item">
+                                    <a class=" nav-link text-bold" href="sharerecipe.html">Share</a>
+                                </li>
+                                <li class="col nav-item">
+                                    <a class=" nav-link text-bold" href="about.html">About</a>
+                                </li>
+                                <li class="col nav-item">
+                                    <a class=" nav-link text-bold" href="donate.html">Donate</a>
+                                </li>
+                            </menu>
+                        </nav>
+                    </div>
                 </div>
-    
+        </header>
         </header>
     
         <main class="container">
@@ -73,9 +82,10 @@
     
         </footer>
             <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-            <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+            <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+            <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="../js/scripts.js"></script>
     </body>
 
 </html>

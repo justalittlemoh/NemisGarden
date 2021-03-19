@@ -31,37 +31,36 @@
   font-size: 1em;
   padding: 0.1em; }
 
-.table {
-  font-size: 1em; }
+.fa-leaf {
+  color: #16B316;
+  font-size: 400%; }
 
-tr, th, td {
-  font-size: inhirit; }
+.navbar-nav {
+  font-size: 2em; }
+
+#logo {
+  width: 6em;
+  height: 6em; }
 
 /*element selectors*/
 a {
   color: #16B316; }
 
-/* images */
-#logo {
-  width: 4rem;
-  height: 4rem; }
+h1 {
+  padding: 0.5em; }
 
-.card-img {
-  width: 15em;
+/* images */
+.card-img-bottom {
+  width: fluid;
   height: 10em; }
 
-/*rating box starts here*/
-.cat-img {
-  background-image: url(../img/rating-car.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  size: 2em 2em; }
+.fa-chevron-left, .fa-chevron-right {
+  color: #c3edc3; }
 
+/*rating box starts here*/
+/*custom stuff */
 .rating-box {
   background-color: #71f071; }
 
 #nemiRating {
   padding-bottom: 1em; }
-
-nav div {
-  border: 0.1em solid black; }
