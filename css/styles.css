@@ -49,6 +49,20 @@ a {
 h1 {
   padding: 0.5em; }
 
+input[type="text"], textarea[type="text"], select {
+  background-color: #16B3162b; }
+
+input[type=range] {
+  width: 100%;
+  /* Specific width is required for Firefox. */ }
+
+#chosenAmount {
+  width: 25%;
+  margin: 0 auto; }
+
+#newsLetter::marker {
+  background-color: #71f071; }
+
 /* images */
 .card-img-bottom {
   width: fluid;
@@ -64,3 +78,6 @@ h1 {
 
 #nemiRating {
   padding-bottom: 1em; }
+
+#commentSubmit {
+  width: 55%; }

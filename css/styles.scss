@@ -4,6 +4,7 @@ $color-main: #c3edc3;       /*                  color for header and footer also
 $color-main-logo: #16B316;       /*                  bg color of the "n"-logo also for most buttons*/
 $color-btn-explore: #71f071; /*                 bright-green color for the main explore-btn*/
 
+$color-input: #16B3162b; // color for text-fields
 
 $color-card-vegi: #cfeea7;  /*                  bg-color of the vegetables card on the "explore-page"*/
 $color-card-tip: #71f071; /*                    bg-color of "tip-card" on recipe site */
@@ -50,6 +51,8 @@ $font-style:"Monserrat",sans-serif;
 }
 
 
+
+
 // header and footer start here
 
 
@@ -86,6 +89,30 @@ a {
 h1 {
     padding: 0.5em;
 }
+
+
+// inputs below here
+
+input[type="text"], textarea[type="text"], select {
+    background-color: $color-input;
+}
+
+
+input[type=range] {
+    // -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 100%; /* Specific width is required for Firefox. */
+
+  }
+  
+#chosenAmount {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#newsLetter::marker {
+    background-color: $color-btn-explore; // tried to make the checkbox green when clicked .... 
+
+
 
 /* images */
 
@@ -126,3 +153,7 @@ h1 {
     padding-bottom: 1em;
 }
 
+#commentSubmit{
+    width: 55%;
+
+}
